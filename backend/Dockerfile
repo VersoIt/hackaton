@@ -23,4 +23,4 @@ EXPOSE 8080
 
 USER 65532:65532
 
-CMD ["./main"]
+ENTRYPOINT ["./main"]
